@@ -67,6 +67,7 @@ export default class DBOperator implements IDBOperator {
                 bigNumberStrings: false,
                 synchronize: false,
                 logging: false,
+                connectorPackage: 'mysql2',
                 entities: [entitie],
                 subscribers: [subscriber],
                 migrationsRun: true,
